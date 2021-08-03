@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Thu, 10 Jun 2021 02:10:19 +0000
+Source: linux-5.5.19-xrp
+Binary: linux-headers-5.5.19-xrp linux-image-5.5.19-xrp linux-image-5.5.19-xrp-dbg linux-libc-dev
+Architecture: source amd64
+Version: 5.5.19-xrp-1
+Distribution: focal
+Urgency: low
+Maintainer: ubuntu <ubuntu@ubuntu>
+Changed-By: ubuntu <ubuntu@ubuntu>
+Description:
+ linux-headers-5.5.19-xrp - Linux kernel headers for 5.5.19-xrp on amd64
+ linux-image-5.5.19-xrp - Linux kernel, version 5.5.19-xrp
+ linux-image-5.5.19-xrp-dbg - Linux kernel debugging symbols for 5.5.19-xrp
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-5.5.19-xrp (5.5.19-xrp-1) focal; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ 71f95a44908ee29b38b289a6be0ab8e0840f0d35 1171 linux-5.5.19-xrp_5.5.19-xrp-1.dsc
+ b86da4259a8f5cb0728ec277ed9065b2e1c57544 179389784 linux-5.5.19-xrp_5.5.19-xrp.orig.tar.gz
+ ac16f915e157d88eaeb3dc3b80a5b73991e71ae7 707495 linux-5.5.19-xrp_5.5.19-xrp-1.diff.gz
+ b83cd734034170ad2630763c3aa284b29c92fe5b 5865 linux-5.5.19-xrp_5.5.19-xrp-1_amd64.buildinfo
+ b3424708a82c54404b612c41d044e258bdda8680 11705856 linux-headers-5.5.19-xrp_5.5.19-xrp-1_amd64.deb
+ 31a9ce5d18e40692eae464a13132423ab223f060 916848924 linux-image-5.5.19-xrp-dbg_5.5.19-xrp-1_amd64.deb
+ 1929ef7ab9276bd9293e5b768bb7669ea307ad8c 59421576 linux-image-5.5.19-xrp_5.5.19-xrp-1_amd64.deb
+ 9123da221679595bd1e2df20dee9def51f5763b3 1074960 linux-libc-dev_5.5.19-xrp-1_amd64.deb
+Checksums-Sha256:
+ 25ff5b6b0ef6244104da120f8803d74a659713d9b8f077445db8db63d1053e97 1171 linux-5.5.19-xrp_5.5.19-xrp-1.dsc
+ a3ad405a7a06e6425d885ec29ecdcb41c24a3541029a914b654d8c1187ae3165 179389784 linux-5.5.19-xrp_5.5.19-xrp.orig.tar.gz
+ 094d4db792732a0b5f52710cab0d43cc17cbe03aa517998fcaaca8e17e940dd8 707495 linux-5.5.19-xrp_5.5.19-xrp-1.diff.gz
+ 582b76c24a503f6c1f99c18266f4ad4bfef185dbfe942357be1560725665ddee 5865 linux-5.5.19-xrp_5.5.19-xrp-1_amd64.buildinfo
+ 518a2b11b7eb27b737a5c950890b243d933b68285b76c3f19cf9673f8d9c4f55 11705856 linux-headers-5.5.19-xrp_5.5.19-xrp-1_amd64.deb
+ f80dfb72476d83f2b3fd8aa8b6235d85f39b803143b3c4678e989e8af5d08ea6 916848924 linux-image-5.5.19-xrp-dbg_5.5.19-xrp-1_amd64.deb
+ ca1c8f37f3bafaef0d6ee4d0743bd2fc3bcb9be3b72f7c6519240f55e1a62d6b 59421576 linux-image-5.5.19-xrp_5.5.19-xrp-1_amd64.deb
+ 3b290a1d086964f4a353bde48ba1d9a6e1b1d52d41b6ce58faf72b9388046c7f 1074960 linux-libc-dev_5.5.19-xrp-1_amd64.deb
+Files:
+ 938b1ae4f5a09cba5395abf6e80d6ff3 1171 kernel optional linux-5.5.19-xrp_5.5.19-xrp-1.dsc
+ 4179f7634b957a7fe184d4ab8f9de67e 179389784 kernel optional linux-5.5.19-xrp_5.5.19-xrp.orig.tar.gz
+ 4d837b65ea11653c18266bd51494ac92 707495 kernel optional linux-5.5.19-xrp_5.5.19-xrp-1.diff.gz
+ b6f5fee2a5b76f2883fbee30ac0ee2bb 5865 kernel optional linux-5.5.19-xrp_5.5.19-xrp-1_amd64.buildinfo
+ b41f168bc9e0aaac95b6f07c8b32df77 11705856 kernel optional linux-headers-5.5.19-xrp_5.5.19-xrp-1_amd64.deb
+ 741dc44baa00e1bdd5be437fa99f23e0 916848924 debug optional linux-image-5.5.19-xrp-dbg_5.5.19-xrp-1_amd64.deb
+ a37ac9b7b87ce3256a413abdd6809af2 59421576 kernel optional linux-image-5.5.19-xrp_5.5.19-xrp-1_amd64.deb
+ f93bf03c247eb726cab875b70f5f175d 1074960 devel optional linux-libc-dev_5.5.19-xrp-1_amd64.deb
